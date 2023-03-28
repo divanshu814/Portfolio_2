@@ -13,8 +13,8 @@
 
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #323946;
+    --second-bg-color: #1f242d;
     --text-color: #fff;
     --main-color: #0ef;
 
@@ -40,7 +40,7 @@ section{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,6 +205,8 @@ span{
 }
 .about-img img{
     width: 35vw;
+    
+    /* box-shadow: 0 0 1rem var(--main-color); */
 }
 
 .heading{
@@ -229,6 +231,7 @@ span{
 .services h2{
     margin-bottom: 5rem;
 }
+
 
 .services-container{
     display: flex;
@@ -286,7 +289,7 @@ span{
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
     overflow: hidden;
     display: flex;
 }
@@ -295,9 +298,13 @@ span{
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
+    
+    box-shadow: 0 0 1rem var(--main-color);
 }
 .portfolio-box:hover img{
+    /* display: none; */
     transform: scale(1.1);
+    opacity: 0%;
 }
 
 .portfolio-box .portfolio-layer{
@@ -318,6 +325,7 @@ span{
 }
 .portfolio-box:hover .portfolio-layer{
     transform: translateY(0);
+    /* display: ; */
 }
 
 .portfolio-layer h4{
@@ -537,6 +545,20 @@ span{
         margin-top: 2rem;
     }
 }
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 2rem;
+}
+.contact-container a:hover{
+   text-decoration: underline;
+   color: var(--main-color);
+}
+
 
 
 
