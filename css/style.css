@@ -13,10 +13,12 @@
 
 
 :root{
+    
     --bg-color: #323946;
-    --second-bg-color: #1f242d;
+    --second-bg-color: #242b3a;
     --text-color: #fff;
     --main-color: #0ef;
+    
 
 }
 
@@ -160,6 +162,7 @@ span{
     display: inline-block;
     padding: 1rem 2rem;
     background: var(--main-color);
+    /* background: #faf0be; */
     border-radius: 4rem;
     /* box-shadow: 0 0 1rem var(--main-color); */
     font-size: 1.2rem;
@@ -171,6 +174,9 @@ span{
 
 .skill-btn:hover{
     box-shadow: none;
+    /* background: var(--text-color); */
+    background: #f4c430;
+    
 }
 
 .social-media a:hover {
