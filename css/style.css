@@ -174,8 +174,8 @@ span{
 
 .skill-btn:hover{
     box-shadow: none;
-    /* background: var(--text-color); */
-    background: #f4c430;
+    background: var(--text-color);
+   
     
 }
 
