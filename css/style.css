@@ -14,6 +14,11 @@
 
 :root{
     
+    /* --bg-color: #fff;
+    --second-bg-color: #fff;
+    --text-color:#242b3a;
+    --main-color: rgb(13, 183, 195); */
+
     --bg-color: #323946;
     --second-bg-color: #242b3a;
     --text-color: #fff;
@@ -212,7 +217,6 @@ span{
 .about-img img{
     width: 35vw;
     
-    /* box-shadow: 0 0 1rem var(--main-color); */
 }
 
 .heading{
